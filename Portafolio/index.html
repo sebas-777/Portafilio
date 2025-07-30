@@ -2,17 +2,133 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!---Estilos-->
     <link rel="stylesheet" href="asset/css/style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="asset//fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="asset/fonts/Poppins/poppins.css">
+ 
     <title>Portafolio Sebastian Castro M</title>
   </head>
   <body>
-    <h1>Portafolio</h1>
+    <!--Layout main-->
+    <div class="layout">
+      <!--Slider Lateral(info user)-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!--informacion general del usuario-->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+              src="asset/img/Foto.jpeg"
+              alt="Foto de perfil"
+              class="user-info__image"
+            />
+            </div>
+            <h2 class="user-info__name">Sebastian Castro</h2>
+            <h4 class="user-info?__job">Desarrollador FullStack</h4>
+            
+          </div>
+          <!--Menu de navegacion-->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon  fa-solid fa-house"></i>
+                  <span class="menu__overlay">Principal</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="sobreMi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre Mi</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="estudios.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Estudios</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon  fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portafolio</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="estudios.html" class="menu__link">
+                  <i class="menu__icon fa-solid  fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid  fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+
+
+            </ul>
+          </nav>
+          <!--Links a redes sociales-->
+
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-github"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a href="" class="social__link">
+                  <i class="social__icon fa-brands fa-gitlab"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+          <!--Boton del curriculum-->
+
+          <div class="user-info__buttons">
+            <a href="#" class="user-info__btn">Descargar CV</a>
+          </div>
+
+          <!--Pie de pagina-->
+
+          <footer class="user-info__footer">
+            <p class="user-info__copy">&copy; 2025 Sebastian Castro M</p>
+          </footer>
+
+        </section>
+        
+      </aside>
+
+      <!--Contenido principal-->
+      <main class="layout__content">
+        <section class="content__page">
+          <h1 class="page__name">Sebastian Castro M </h1>
+          <h2 class="page__job">Desarrollador FullStack</h2>
+        </section>
+      </main> 
+    </div>
+
   </body>
 </html>
