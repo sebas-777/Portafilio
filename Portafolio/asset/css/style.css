@@ -1,3 +1,31 @@
+/*DEFINICION DE VARIABLES*/
+:root{
+    --color-principal:#FFFFFF;
+    --color-segundario:#04B4E0;
+    --color-background:#EDF2F4;
+    --color-transparente:transparent;
+
+    --color-icon:#B5B6B7;
+    --color-title:#222222;
+    --color-subtitle:#888;
+    --color-text:#555;
+    
+}
+
+/*ESTILOS GENERALES*/
+html{
+    font-size: 10px;
+}
+
 body{
-    font-family: 'Poppins';
+    width: 100%;
+    height: auto;
+    background-color: var(--color-background);
+    font-family: 'Poppins', sans-serif,Helvetica;
+    font-size: 1.5rem;
+    color: var(--color-text);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: var(--color-title);
 }
